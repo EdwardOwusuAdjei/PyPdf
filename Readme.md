@@ -26,7 +26,9 @@ s3_key = "sample.html"
 # set credential can be called once. These credentials are remembered.
 set_aws_credentials(ACCESS_KEY, ACCESS_SECRET, BUCKET_NAME)
 value = generate(replacement_definition, s3_key, Targets.Amazon)
-# value contains pdf content
+# value contains pdf content in bytes,
+# can be written to disk or returned as response 
+# in which ever framework you are using
 ```
 
 ## Contributing

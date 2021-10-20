@@ -12,7 +12,7 @@ def generate(data: dict, key: str, target: Targets) -> bytes:
 
 def set_aws_credentials(aws_access_key: str, aws_secret_key: str, aws_bucket: str):
     """
-    pass to instance.
+    pass credentials to instance.
     :param aws_access_key: AWS access key
     :param aws_secret_key: AWS secret key
     :param aws_bucket: AWS bucket name
